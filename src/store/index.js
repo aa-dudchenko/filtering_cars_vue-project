@@ -15,9 +15,9 @@ export default new Vuex.Store({
   getters: {
     FILTERED_CARS(state) {
       return state.cars.filter(car => {
-        const result1 = car.name.toLowerCase().indexOf(state.searchQuery.toLowerCase()) !== -1
-        const result2 = car.year.toString().indexOf(state.searchQuery) !== -1
-        const result3 = car.color[0].toLowerCase().indexOf(state.searchQuery.toLowerCase()) !== -1
+        const result1 = car.name.toLowerCase().indexOf(state.searchQuery.trim().toLowerCase()) !== -1
+        const result2 = car.year.toString().indexOf(state.searchQuery.trim()) !== -1
+        const result3 = car.color[0].toLowerCase().indexOf(state.searchQuery.trim().toLowerCase()) !== -1
         return result1 || result2 || result3 ? car : null
         // Менее читабельно:
         // return car.name.toLowerCase().indexOf(state.searchQuery.toLowerCase()) !== -1 || car.year.toString().indexOf(state.searchQuery) !== -1 || car.color[0].toLowerCase().indexOf(state.searchQuery) !== -1         

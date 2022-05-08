@@ -9,7 +9,8 @@
    "year": 2001,
    "image": "https://auto.vercity.ru/gallery/img/automobiles/BMW/m440i/900x/1615370223.jpg",
    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-   "id": "1"
+   "id": "1",
+   "city": "Ростов-на-дону"
   },
   {
    "name": "Audi Quattro S-Line",
@@ -18,7 +19,8 @@
    "year": 2002,
    "image": "https://auto.vercity.ru/gallery/img/automobiles/Audi/2019%20Audi%20A4%2045%20TFSI%20Quattro%20S-Line%20(Navarra%20Blue%20Metallic)%20(B9)%20(WW)/900x/1597768726.jpg",
    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-   "id": "2"
+   "id": "2",
+   "city": "Москва"
   },
   {
    "name": "Bentley Continental GT",
@@ -27,7 +29,8 @@
    "year": 2005,
    "image": "https://auto.vercity.ru/gallery/img/automobiles/Bentley/2020-07%20Bentley%20Continental%20GT%20(Onyx%20Black)%20(UAE)/900x/1595682320.jpg",
    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-   "id": "3"
+   "id": "3",
+   "city": "Владивосток"
   },
   {
    "name": "Citroen C4 Coupe",
@@ -36,7 +39,8 @@
    "year": 2003,
    "image": "https://auto.vercity.ru/gallery/img/automobiles/Citroen/2020-07%20Citroen%20C4%20Coupe%20by%20X-Tomi%20Design/900x/1594823221.jpg",
    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-   "id": "4"
+   "id": "4",
+   "city": "Сургут"
   },
   {
    "name": "Datsun 240Z 5-Speed",
@@ -45,7 +49,8 @@
    "year": 1998,
    "image": "https://auto.vercity.ru/gallery/img/automobiles/Datsun/1971%20Datsun%20240Z%205-Speed%20Project%20(15508)%20(HS30)/900x/1584008469_99.jpg",
    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-   "id": "5"
+   "id": "5",
+   "city": "Краснодар"
   },
   {
    "name": "Ford Bronco",
@@ -54,7 +59,8 @@
    "year": 2000,
    "image": "https://auto.vercity.ru/gallery/img/automobiles/Ford/2020%20Ford%20Bronco%202-Door%20Preproduction/900x/1594823905.jpg",
   "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-   "id": "6"
+   "id": "6",
+   "city": "Калининград"
   },
   {
    "name": "Fiat Toro Endurance",
@@ -63,7 +69,8 @@
    "year": 1999,
    "image": "https://auto.vercity.ru/gallery/img/automobiles/Fiat/2019%20Fiat%20Toro%20Endurance%201_8%20Flex%20AT6%20(226)/900x/1563171639.jpg",
    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-   "id": "7"
+   "id": "7",
+   "city": "Новосибирск"
   },
   {
    "name": "Ferrari GTC4Lusso",
@@ -72,7 +79,8 @@
    "year": 2005,
    "image": "https://auto.vercity.ru/gallery/img/automobiles/Ferrari/2020-06%20Ferrari%20GTC4Lusso%20on%20ADV_1%20Wheels%20(ADV05%20M_V2%20ADVANCED)%20(Matte%20Gray)%20(AU)/900x/1594823555.jpg",
    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-   "id": "8"
+   "id": "8",
+   "city": "Тальяти"
   },
   {
     "name": "Ferrari 488 GTB",
@@ -81,7 +89,8 @@
     "year": 2015,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Ferrari/2020-07%20Ferrari%20488%20GTB%20by%20Pfaff%20Tuning%20on%20ADV_1%20Wheels%20(ADV5%20TRACK%20SPEC%20ADVANCED)/900x/1595685341.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "9"
+    "id": "9",
+    "city": "Ереван"
    },
    {
     "name": "Genesis G70",
@@ -90,7 +99,8 @@
     "year": 2019,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Genesis/2018%20Genesis%20G70%202_0T%20(NA)/900x/1564694658.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "10"
+    "id": "10",
+    "city": "Алматы"
    },
    {
     "name": "GMC Sierra Denali",
@@ -99,7 +109,8 @@
     "year": 2008,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/GMC/2020%20GMC%20Sierra%20Denali%20Crew%20Cab%20Goliath%20700%20by%20Hennessey/900x/1582285432.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "11"
+    "id": "11",
+    "city": "Белгород"
    },
    {
     "name": "Honda S660",
@@ -108,7 +119,8 @@
     "year": 2010,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Honda/2020%20Honda%20S660%20by%20Modulo/900x/1582906037.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "12"
+    "id": "12",
+    "city": "Армавир"
    },
    {
     "name": "Hyundai Elantra (CN7) ",
@@ -117,7 +129,8 @@
     "year": 2014,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Hyundai/2020%20Hyundai%20Elantra%20N%20Line%20(CN7)/900x/1594375356.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "13"
+    "id": "13",
+    "city": "Новая Адыгея"
    },
    {
     "name": "Hummer H2",
@@ -126,7 +139,8 @@
     "year": 2020,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Hummer/2019%20Hummer%20H2%20SUT%20on%20Forgiato%20Wheels%20(Finestro)/900x/1561284221.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "14"
+    "id": "14",
+    "city": "Крымск"
    },
    {
     "name": "Infiniti Q50",
@@ -135,7 +149,8 @@
     "year": 2021,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Infiniti/2017%20Infiniti%20Q50%20Red%20Sport%20400%20(V37)%20(NA)/900x/1572516621.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "15"
+    "id": "15",
+    "city": "Владивосток"
    },
    {
     "name": "Jaguar F-Type R Coupe",
@@ -144,7 +159,8 @@
     "year": 2011,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Jaguar/2020%20Jaguar%20F-Type%20R%20Coupe%20(NA)/900x/1594830418.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "16"
+    "id": "16",
+    "city": "Тахтамукай"
    },
    {
     "name": "Jeep Compass Limited 4xe",
@@ -153,7 +169,8 @@
     "year": 2017,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Jeep/2020%20Jeep%20Compass%20Limited%204xe%20(MP)%20(EU)/900x/1594217165.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "17"
+    "id": "17",
+    "city": "Тюмень"
    },
    {
     "name": "Lexus NX300h",
@@ -162,7 +179,8 @@
     "year": 2010,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Lexus/2017%20Lexus%20NX300h%20(Matador%20Red%20Mica)%20(NA)/900x/1582798814.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "18"
+    "id": "18",
+    "city": "Астана"
    },
    {
     "name": "Mercedes-Benz A-Class",
@@ -171,7 +189,8 @@
     "year": 2004,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Mercedes-Benz/2020-08%20Mercedes-Benz%20A-Class%20by%20Inden%20Design%20on%20Oxigin%20Wheels%20(LM)%20(W176)/900x/1596693905.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "19"
+    "id": "19",
+    "city": "Тбилиси"
    },
    {
     "name": "Mazda Flair Crossover",
@@ -180,7 +199,8 @@
     "year": 2001,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Mazda/2020-02%20Mazda%20Flair%20Crossover/900x/1580918543.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "20"
+    "id": "20",
+    "city": "Саратов"
    },
    {
     "name": "Nissan Kicks e-POWER ",
@@ -189,7 +209,8 @@
     "year": 1997,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Nissan/2020%20Nissan%20Kicks%20e-POWER%20(JP)/900x/1593268990.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "21"
+    "id": "21",
+    "city": "Кемерово"
    },
    {
     "name": "Peugeot 2008 Crossway",
@@ -198,7 +219,8 @@
     "year": 2020,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Peugeot/2017%20Peugeot%202008%20Crossway/900x/1509096091.jpg",
    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "22"
+    "id": "22",
+    "city": "Белгород"
    },
    {
     "name": "Renault Twingo Z.E.",
@@ -207,7 +229,8 @@
     "year": 2013,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Renault/2020%20Renault%20Twingo%20Z_E_%20Vibes/900x/1595692791.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "23"
+    "id": "23",
+    "city": "Липецк"
    },
    {
     "name": "Mitsubishi Mirage",
@@ -216,7 +239,8 @@
     "year": 2009,
     "image": "https://auto.vercity.ru/gallery/img/automobiles/Mitsubishi/2020%20Mitsubishi%20Mirage%20(NA)/900x/1595690157.jpg",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, doloremque quaerat. Iure cupiditate error autem aspernatur esse pariatur sapiente, itaque tenetur dolorem excepturi omnis, repellat laboriosam hic eligendi ducimus quis?",
-    "id": "24"
+    "id": "24",
+    "city": "Ижевск"
    }
  ]
 

@@ -1,6 +1,17 @@
 <template>
 
     <div class="item" :class="[isActive ? '' : 'itemColumn']">
+      <!-- Компонент детализации товара -->
+      <app-details v-if="isInfoDetails" @closeDetails = "closeDetails">
+        <span slot="name" class="details__content-info">{{ car.name }}</span>
+        <span slot="year" class="details__content-info">{{ car.year }}</span>
+        <span slot="price" class="details__content-info">{{ car.price }}</span>
+        <span slot="color" class="details__content-info">{{ car.color[0] }}</span>
+        <span slot="city" class="details__content-info">{{ car.city }}</span>
+        <img  slot="image" :src="car.image" alt="image" class="details__content-image">
+        <span slot="description" class="details__content-info">{{ car.description }}</span>
+       </app-details>
+      <!-- ----------------- -->
       <img class="item__image" :src="car.image" alt="image">
       <div class="item__text">
         <div class="item__decor">
@@ -18,15 +29,17 @@
         <p class="item__year">
           Год выпуска: <span class="item__price-value"> {{ car.year }} </span>
         </p>
+      </div>
         <div class="item__btn">
-          <v-btn color="#1b97f3"> <span class="item__btn-text"> Подробнее </span> </v-btn>
-        </div>
+          <v-btn @click="showDetails" color="#1b97f3"> <span class="item__btn-text"> Подробнее </span> </v-btn>
       </div>
     </div>
 
 </template>
 
 <script>
+import Details from './Details.vue'
+
 export default {
   props: {
     isActive: {
@@ -38,6 +51,29 @@ export default {
       required: true
     }
   },
+
+  data () {
+    return {
+      isInfoDetails: false
+    }
+  },
+
+  components: {
+    'app-details': Details
+  },
+
+  methods: {
+    showDetails () {
+      this.isInfoDetails = true
+        document.querySelector("body").style.maxHeight = "100vh";
+        document.querySelector("body").style.overflow = "hidden";      
+    },
+    closeDetails () {
+      this.isInfoDetails = false
+      document.querySelector("body").style.maxHeight = "100%";
+      document.querySelector("body").style.overflow = "auto";
+    }
+  }
 }
 </script>
 
@@ -45,10 +81,12 @@ export default {
 <style lang="scss">
 
 .item {
+  position: relative;
   margin: 0 12px 30px;
   padding-bottom: 10px;
   width: 300px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  padding-bottom: 58px;
 
   &:hover {
     box-shadow: 0 0 0 2px white, 0 0 0 4px #2196F3;
@@ -106,7 +144,9 @@ export default {
   }
 
   &__btn {
-    margin-left: 150px;
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
 
     &-text {
       color: #fff;
@@ -119,16 +159,18 @@ export default {
   display: flex;
   width: 620px;
   margin: 0 auto 30px;
+  padding-bottom: 12px;
 
   & .item__image {
     height: auto;
     margin-right: 20px;
-    margin-top: 22px;
+    margin-top: 20px;
   }
 
   & .item__text {
     margin-top: 22px;
   }
+
 }
 
 @media (max-width: 690px) {
@@ -146,5 +188,6 @@ export default {
       margin-top: 0;
     }
   }
+
 }
 </style>
