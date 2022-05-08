@@ -81,10 +81,11 @@ export default {
 <style lang="scss">
 
 .item {
+  background-color: #fff;
   position: relative;
   margin: 0 12px 30px;
-  padding-bottom: 10px;
   width: 300px;
+  height: 432px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
   padding-bottom: 58px;
 
@@ -158,6 +159,7 @@ export default {
 .itemColumn {
   display: flex;
   width: 620px;
+  height: 242px;
   margin: 0 auto 30px;
   padding-bottom: 12px;
 
@@ -173,10 +175,12 @@ export default {
 
 }
 
+
 @media (max-width: 690px) {
   .itemColumn {
     display: block;
     width: 300px;
+    height: 432px;
 
     & .item__image {
       height: 200px;

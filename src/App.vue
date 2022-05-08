@@ -28,7 +28,7 @@ export default {
 
   .app {
     padding: 50px 0 30px;
-
+    
     &__title {
       text-align: center;
       font-size: 26px;

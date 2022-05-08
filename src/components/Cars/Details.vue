@@ -47,13 +47,13 @@ export default {
     14px -14px 2px -5px #ffc400,
     14px 14px 2px -5px #fff;
 
-  padding: 20px 15px 0;
+  padding: 20px 15px 10px 15px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 500px;
-  height: 600px; 
+  // height: 620px; 
 
   &__wrap {
     position: fixed;
@@ -61,8 +61,17 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .5);
     z-index: 5;
+    background:
+      linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+      linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+      linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+      linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+      linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+      linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    
   }
 
   &__title {
